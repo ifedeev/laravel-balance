@@ -12,7 +12,7 @@ composer require mreduar/laravel-balance
 ```
 You can publish and run the migrations with:
 
-```bash
+```bash****************
 php artisan vendor:publish --provider="MrEduar\Balance\BalanceServiceProvider" --tag="migrations"
 php artisan migrate
 ```
